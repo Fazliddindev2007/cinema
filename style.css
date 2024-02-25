@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+.navbar-1{
+  width: 100%;
+  min-height: 180px;
+  font-family: Comfortaa;
+}
+.navbar-1 .container-1{
+  width: 100%;
+  min-height: 90px;
+  background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+}
+.navbar-1 .container-2{
+  width: 100%;
+  height: 100px;
+}
+.navbar a{
+  position: relative;
+  font-size: 1.1em;
+  color:aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    height: 3px;
+    background: #ED8E00;
+    border-bottom: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition:transform .5s;
+}
+.navbar a:hover::after{
+  transition:transform .5s;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.bg-white-1{
+  background: #F18128;
+}
+.bg-black-1{
+  background-image: url(./weue\ cinema.jpg);
+  background-position: cover;
+}
+.top-1{
+  right: 30px;
+  top: 40px;
+}
+.cinemas-container{
+  width: 100%;
+  height: 640px;
+  background-image: url(./img/kong_skull_island\ 1.png);
+  background-size: cover;
+  display: block;
+}
+.cinemas-container .container-1{
+  width: 100%;
+  height: 640px;
+  background: #070F19BF;
+}
+.cinemas-container h1{
+  font-size: 64px;
+}
+.cinemas-container p{
+  font-size: 19px;
+}
+.button-2,.button-3{
+  width: 166px;
+  height: 45px;
+  border-radius: 4px;
+}
+.button-2{
+  background: #F18128;
+}
+.black{
+  position: relative;
+  font-size: 3em;
+  color:#ED8E00;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.black::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  height: 3px;
+  background: #ED8E00;
+  border-bottom: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition:transform .5s;
+}
+.black:hover::after{
+  transition:transform .5s;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.films .button-1{
+  width: 90px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-top: 25px;
+}
+.films .active{
+  height: 430px;
+  border-radius: 20px;
+  border: 10px solid  black;
+  cursor: pointer;
+}
+.films .active .contaienr-1{
+  background: #151515bf;
+  width: 100%;
+  height: 410px;
+  left:  0;
+  top: 0;
+  border-radius:10px;
+}
+.img-1{
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+}
+.img-2{
+  background-image: url(./img/img-2.png);
+  background-size: cover;
+}
+.img-3{
+  background-image: url(./img/img-3.png);
+  background-size: cover;
+}
+.img-4{
+  background-image: url(./img/img-4.png);
+  background-size: cover;
+}
+.right-0{
+  right: 0;
+  height: 380px;
+}
+.image{
+  background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0) 100.72%);
+  height: 450px;
+}
+.button-5{
+  width: 200px;
+}
+.padding{
+  padding: 10px 10px;
+}
+.dark{
+  background: linear-gradient(270deg, rgba(7, 15, 25, 0.56) 0%, rgba(49, 114, 9, 0.56) 100%);
+}
+.h{
+  height: 91%;
+  width: 93%;
+  border-radius: 4px;
+}
+.line-1{
+width: 30px;
+height: 28px;
+top: 2241.75px;
+left: 171.77px;
+border-radius: 2px;
+background-color: black;
+}
+.left{
+  left: 20px;
+}
+.left-1{
+   left:320px;
+}
+.center{
+  left: 28%;
+  top: 30%;
+}
+.w{
+  width: 360px;
+  height: 200px;  
+}
+.l{
+  left: 0;
+}
+.l1{
+  left: 10px;
+}
+.l2{
+  left:320px;
+}
+.height{
+  height: 436px;
+}
+.container-1a{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 10.86%, rgba(11, 11, 11, 0.6) 110.86%);
+}
+.center-1{
+  left: 35%;
+  top: 35%;
+}
+/* .center-3{
+  top: 22%;
+} */
+/* .mt-6{
+  margin-top: 70px;
+} */
+.w-90{
+  width: 70%;
+}
+.l3{
+  left: 15%;
+}
+.w1{
+  height: 356px;
+  border-radius: 4px;
+}
+.w2{
+  height: 160px;
+}
+.bg-orange{
+  background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+  height: 80px;
+}
+.line-1{
+  width: 30px;
+  height: 28px;
+  background-color: black;
+}
+.container-1ab{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: linear-gradient(270deg, rgba(7, 15, 25, 0.56) 0%, rgba(49, 114, 9, 0.56) 100%);
+}
+@media screen and (max-width:1132px ) {
+  .cinemas-container{
+    background-image: url(./img/md-kong.jpg);
+  }
+}
+@media screen and (max-width:500px ) {
+  .cinemas-container{
+    background-image: url(./img/responsive-img.jpg);
+  }
+}
+@media screen and (max-width:539px ) {
+  .cinemas-container h1{
+    font-size: 45px;
+  }
+  .cinemas-container p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:386px ) {
+  .cinemas-container h1{
+    font-size: 35px;
+  }
+  .cinemas-container p{
+    font-size: 13px;
+  }
+}
